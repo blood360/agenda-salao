@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #fce4ec, #e1bee7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.card{
+    .card {
+        background-image: url("https://br.pinterest.com/pin/199495458489172331/");
+        background-repeat: repeat;
+        background-size: 200px; /* ou 'contain' ou 'cover' dependendo do efeito */
+        background-blend-mode: lighten;
+        background-color: white; /* ainda mantém o fundo claro */
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+        position: relative;
+      }
+      
+}
+.card h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+select, input, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+button{
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.info {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
