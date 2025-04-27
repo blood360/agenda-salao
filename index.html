@@ -6,6 +6,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="styles.css" />
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #fce4ec, #831097);
+    background-image: url(imagem\ de\ fundo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; <!-- Centraliza verticalmente -->
+    margin: 0;
+  }
+  .card {
+    
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  .card h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  select, input, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .info {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .fade-in{
+    animatioin: fade-in 0.6s ease forwards;
+  }
+  @kayframes fadeIn {
+    from{
+      opacity: 0;
+      transforom: translateY(10px)
+    }
+    to {
+      opacity: 1;
+      transform: transalateY(0);
+    }
+  }
 
   <!-- EmailJS -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
