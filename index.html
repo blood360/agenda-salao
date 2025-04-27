@@ -6,8 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="styles.css" />
+  
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    emailjs.init("BWZyV7ZxLecuTi0_G"); // sua chave pública do EmailJS
+  </script>
   <style>
-  body {
+    body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #fce4ec, #831097);
     background-image: url(imagem\ de\ fundo.jpg);
@@ -66,12 +72,6 @@
     }
   }
   </style>
-
-  <!-- EmailJS -->
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <script>
-    emailjs.init("BWZyV7ZxLecuTi0_G"); // sua chave pública do EmailJS
-  </script>
 
 </head>
 <body>
